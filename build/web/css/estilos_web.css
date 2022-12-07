@@ -1,0 +1,59 @@
+#header{
+	background: #2a3f54;
+	color: #FFF;
+}
+#header div > a {
+	border: 2px solid #FFF;
+	border-radius: 10%;
+	padding: 1rem;
+	color: #FFF;
+
+}
+.contenerdor_imagen, img {
+    width: 1440px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.contenedor_login {
+	background: #FFF;
+	border: 2px solid #FFF;
+	border-radius: 15px;
+	padding: 1rem;
+	width: 300px;
+}
+.contenedor_login > h1{
+	color: #000;
+}
+.ubicar_login{
+	position: absolute;
+	top: 35%;
+	left:70%;
+}
+.centrar{
+	text-align: center;
+}
+.estadisticas {	
+	overflow: hidden;
+}
+.info_estadistica{
+	float: left;
+	border: 2px solid #D5D4D4;
+	border-radius: 7%;
+	padding: 1rem;
+	margin-right: 2rem;
+}
+.info_estadistica > h1 {
+	color: #2a3f54;
+}
+.info_estadistica > h3 {
+	color: #bab8b8;
+}
+.text_info{
+	/*background: #bab8b8;
+/*	display: flex;
+  align-items: stretch;*/
+}
+footer{
+	background: #2a3f54;
+	position: relative;
+}

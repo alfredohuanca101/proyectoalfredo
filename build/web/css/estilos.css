@@ -1,0 +1,247 @@
+body{
+	font-family: 'Greta Sans Condensed Bold','Greta Sans Bold', Agency FB, 'Britannic Bold', Arial,sans-serif;
+	 overflow-x: hidden;
+}
+h1{
+	color: #0282f9;
+	font-weight: bold;
+}
+h3{
+	font-weight: bold;
+}
+h4{
+	font-weight: bold;
+}
+h6{
+	font-weight: bold;
+	color: #55ba59;
+}
+span{
+	font-weight: bold;
+	color: #0282f9;
+}
+/*CABECERA*/
+header{
+	background: #3C96F3;
+	text-align: right;
+}
+header a{
+	color: #fff;
+	text-decoration-line: none;
+	text-decoration:none;
+	margin: 0.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+header a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.ajuste_img{
+	width: 100%;
+	height: 250px;
+}
+/*-------*/
+/* NAVEGADOR*/
+#navegador .contenidonav{
+	display: inline-block;
+	
+}
+#navegador img{
+	width: 130%;
+	margin-left: 0;
+	margin-top:1.5rem;
+}
+.contenidonav .menu_nav ul.menu li{
+	text-align: center;
+	display: inline-block;
+	color: #464646;
+	font-weight: bold;
+	margin-top: 3rem;
+	margin-bottom: 3rem; 
+	padding: 2rem;
+}
+.menu_nav ul.menu li:hover{
+	color: #0282f9;
+	border-bottom: 5px solid #0282f9;
+}
+.buscador{
+	display: inline-block;
+}
+.buscador a{
+	color: #464646;
+	font-size: 25px;
+	text-align: center;
+}
+#navegador input{
+	text-align: right;
+	font-weight: bold;
+	width: 120px;
+	font-size: 18px;
+	margin-top: 4rem;
+	border-right: 0;
+	border-left: 0;
+	border-top: 0;
+	border-bottom: 2px solid #0282f9;
+}
+/*----------*/
+/*SECCION 1*/
+#seccion1 .titulo{
+	position: relative;
+	height: 420px;
+}
+.titulo img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	filter: brightness(0.7);
+}
+#seccion1 .dato{
+	position: relative;
+	height: 200px;	
+}
+.dato img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	filter: brightness(0.7);
+}
+#seccion1 .titulo .contenidosec1{
+ position: absolute;
+ color: white;
+ top: 73%;
+ left: 40%;
+ transform: translate(-50%, -50%);	
+ font-size: 20px;
+ font-weight: bold;
+}
+
+#seccion1 .dato .contenidosec1{
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 66%;
+	left: 37%;
+	transform: translate(-50%, -50%);	
+}
+/*---------*/
+/*SECCION 2*/
+.item:hover{
+	color: #0282f9;
+	cursor: pointer;
+}
+.item_efecto:hover > img{
+   opacity:0.6;
+}
+.bloque_2{
+	position: relative;
+/*	background-image: url(../img/wonderwoman.png);
+	background-repeat: no-repeat;
+	background-position: right;*/
+}
+.img_efecto{
+	position: relative;
+}
+.img_efecto img{
+	border:2px solid white;
+	border-radius: 50%;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	z-index: 1000;
+	cursor: pointer;
+}
+.img_efecto img:hover{
+	transform: scale(1.02); 
+}
+.imgflotante{
+	position: absolute;
+	top: 13%;
+	right: -20%;
+}
+.fila_2{
+	margin-top: 4rem;
+}
+.info_comic h3, h6{
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+.contenido_flotante{
+	position: relative;
+}
+.contenido_flotante .titulos{
+	position: absolute;
+	left: 10%;
+}
+.contenido_flotante .titulos a{
+	color: black;
+	font-weight: bold;
+	text-decoration-line: none;
+}
+.contenido_flotante .titulos a:hover{
+	color: #0282f9;
+	font-weight: bold;
+	text-decoration-line: none;
+}
+.contenido_flotante .titulos h1{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: -10px;
+	margin-left: -10px;
+}
+.contenido_flotante .imgflotante2{
+	position: absolute;
+	top: -125px;
+	left: 10%;
+}
+.heroes_items{
+	padding: 0px;
+	margin: 0px;
+	width: 165px;
+}
+.heroes_items:hover{
+	color: #0282f9;
+	cursor: pointer;
+}
+/*-----------*/
+/*SECCION 3*/
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+        background: black;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: white;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+/*----------------*/ 
+/**/
+/**/    
